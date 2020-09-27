@@ -11,8 +11,8 @@ Credit for implementing the vectorized version of the code to Gideon Rosenthal.
 ## Prerequities
 
 * python > 2.7
+* scipy, Numpy
 * Bctpy (https://pypi.org/project/bctpy/)
-
 
 ## Usage
 
