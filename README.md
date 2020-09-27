@@ -10,7 +10,7 @@ Credit for implementing the vectorized version of the code to Gideon Rosenthal.
 
 ## Prerequities
 
-* python
+* python > 2.7
 * Bctpy (https://pypi.org/project/bctpy/)
 
 
@@ -21,6 +21,4 @@ pvals, adj, null = nbs_bct_corr_z(subs_functional_conn_mats, thresh = 0.25, y_ve
 
 ## Refernce
 
-* (https://sites.google.com/site/bctnet/comparison/nbs)
-  * > Zalesky A, Fornito A, Bullmore ET (2010).  Network-based statistic: identifying differences in brain networks. NeuroImage 53:1197-207.
- * > Rosenthal, G., Sporns, O., & Avidan, G. (2016). Stimulus dependent dynamic reorganization of the human face processing network. Cerebral Cortex, 27(10), 4823-4834.
+* Levakov, G., Kaplan, A., Yaskolka M. A., Tsaban, G., Zelicha, H., Meiran, N., Shelef, I., Shai, I. & Avidan, G. (in press). Neural correlates of future weight loss reveal a possible role for brain-gastric interactions. NeuroImage.
