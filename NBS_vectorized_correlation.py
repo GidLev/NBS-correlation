@@ -6,8 +6,8 @@ from bct.algorithms import get_components
 def nbs_bct_corr_z(corr_arr, thresh, y_vec, k=1000, extent=True, verbose=False):
 
     '''
-    Performs the NBS for populations X and Y for a t-statistic threshold of
-    alpha.
+    Performs the NBS for matrices [corr_arr] and vector [y_vec]  for a Pearson's r-statistic threshold of
+    [thresh].
 
     Parameters
     ----------
@@ -29,7 +29,7 @@ def nbs_bct_corr_z(corr_arr, thresh, y_vec, k=1000, extent=True, verbose=False):
     -------
     pval : Cx1 np.ndarray
         A vector of corrected p-values for each component of the networks
-        identified. If at least one p-value is less than alpha, the omnibus
+        identified. If at least one p-value is less than thres, the omnibus
         null hypothesis can be rejected at alpha significance. The null
         hypothesis is that the value of the connectivity from each edge has
         equal mean across the two populations.
